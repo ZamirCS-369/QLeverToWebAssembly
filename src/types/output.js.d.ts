@@ -1,1 +1,1 @@
-declare module output.js
+//declare module output.js

@@ -7,7 +7,8 @@ export function setupCounter(element: HTMLButtonElement) {
   element.addEventListener('click', () => setCounter(counter + 1))
   setCounter(0)
 }
-
+/*
 export function buildIndex(element: HTMLButtonElement) {
   element.addEventListener('click', () =>)
 }
+*/

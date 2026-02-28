@@ -1,4 +1,4 @@
-import MyModuleFactory from './outputnonamespace.js';
+/*import MyModuleFactory from './outputnonamespace.js';
 
 const input = document.getElementById('textInput') as HTMLInputElement;
 const button = document.getElementById('myButton') as HTMLButtonElement;
@@ -15,4 +15,4 @@ button.addEventListener('click', () => {
     } else {
         alert('Please enter some text!');
     }
-});
+}); */

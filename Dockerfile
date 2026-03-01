@@ -25,3 +25,4 @@ EXPOSE 5173
 CMD ["npm", "run", "dev", "--", "--host"]
 
 # Run 'npm run dev' and open the visible URL (should be: http://localhost:5173/)
+# Ignore the pop up box. You can now interact with the site. 

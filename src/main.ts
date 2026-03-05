@@ -24,7 +24,7 @@ async function initWasm() {
             if (path.endsWith('11.wasm')) {
                 return '/multithreadoutput11.wasm'; // served from public/
             }
-            return path;
+            return "/QLeverToWebAssembly/" + path;
         }
     });
     wasmReady = true;

@@ -22,9 +22,9 @@ async function initWasm() {
         locateFile: (path: string) => {
             console.log("WASM requested:", path);
             if (path.endsWith('11.wasm')) {
-                return '/multithreadoutput11.wasm'; // served from public/
+                return '/QLeverToWebAssembly/multithreadoutput11.wasm'; // served from public/
             }
-            return path;
+            return '/QLeverToWebAssembly/' + path;
         }
     });
     wasmReady = true;
